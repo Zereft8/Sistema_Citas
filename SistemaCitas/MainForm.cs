@@ -15,7 +15,7 @@ namespace SistemaCitas
     public partial class MainForm : Form
     {
 
-        SqlConnection connect = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\DiseñandoDWH\SistemaCitas\SistemaCitas\SitemaCitas.mdf;Integrated Security=True;Connect Timeout=30");
+        SqlConnection connect = new SqlConnection(@"Data Source=ELIAN-D-;Initial Catalog=Sistema_Citas;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False");
 
 
         public MainForm()
