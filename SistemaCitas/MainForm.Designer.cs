@@ -163,7 +163,7 @@
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(200, 52);
             this.button2.TabIndex = 3;
-            this.button2.Text = "Agendar Cita";
+            this.button2.Text = "Programar Cita";
             this.button2.UseVisualStyleBackColor = false;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
@@ -396,9 +396,9 @@
             this.label7.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.label7.Location = new System.Drawing.Point(32, 40);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(180, 28);
+            this.label7.Size = new System.Drawing.Size(200, 28);
             this.label7.TabIndex = 0;
-            this.label7.Text = "Citas Agendadas";
+            this.label7.Text = "Citas Programadas";
             // 
             // button5
             // 
